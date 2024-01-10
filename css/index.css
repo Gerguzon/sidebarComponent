@@ -98,35 +98,35 @@ margin-inline-start: 1rem;
 }
 
 .hamburgerIcon {
-  background-image: url("/icons/menu.svg");
+  background-image: url("../icons/menu.svg");
 }
 
 .leonidasIcon {
-  background-image: url("/icons/leonidasLogo.svg");
+  background-image: url("../icons/leonidasLogo.svg");
 }
 
 .recibidosIcon {
-  background-image: url("/icons/archive.svg");
+  background-image: url("../icons/archive.svg");
 }
 
 .destacadosIcon {
-  background-image: url("/icons/star.svg");
+  background-image: url("../icons/star.svg");
 }
 
 .pospuestosIcon {
-  background-image: url("/icons/clock.svg");
+  background-image: url("../icons/clock.svg");
 }
 
 .enviadosIcon {
-  background-image: url("/icons/send.svg");
+  background-image: url("../icons/send.svg");
 }
 
 .todosIcon {
-  background-image: url("/icons/mail.svg");
+  background-image: url("../icons/mail.svg");
 }
 
 .papeleraIcon {
-  background-image: url("/icons/trash.svg");
+  background-image: url("../icons/trash.svg");
 }
 
 .animation:active {
