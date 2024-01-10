@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/index.css">
+  <title>Sidebar</title>
+</head>
+<body>
+
+  <aside class="gap sidebarSmall" id="sidebarSmall">
+    <nav class="sidebar">
+      <ul>
+          <li class="headerSidebar" id="hamburgerIcon" onclick="miFunc()">
+            <span class="icon hamburgerIcon animation"></span>
+          </li>
+        </ul>
+
+        <ul>
+          <li>
+            <span class="icon recibidosIcon animation"></span>
+            
+          </li>
+          <li>
+            <span class="icon destacadosIcon animation "></span>
+            
+          </li>
+          <li>
+            <span class="icon pospuestosIcon animation"></span>
+            
+          </li>
+          <li>
+            <span class="icon enviadosIcon animation"></span>
+            
+          </li>
+        </ul>
+
+        <ul>
+          <li>
+            <span class="icon todosIcon animation"></span>
+            
+          </li>
+          <li>
+            <span class="icon papeleraIcon animation"></span>
+            
+          </li>
+        </ul>
+      </nav>
+    </aside>
+
+  <aside class="gap display" id="sidebarComplete">
+    <nav class="sidebar">
+      <ul>
+        <li class="headerSidebar">
+          <span class="icon hamburgerIcon animation" onclick="miFunc()"></span>
+          <span class="icon leonidasIcon"></span>
+          No te rindas
+        </li>
+      </ul>
+
+      <ul>
+        <li>
+          <span class="icon recibidosIcon animation"></span>
+          Recibidos
+        </li>
+        <li>
+          <span class="icon destacadosIcon animation "></span>
+          Destacados
+        </li>
+        <li>
+          <span class="icon pospuestosIcon animation"></span>
+          Pospuestos
+        </li>
+        <li>
+          <span class="icon enviadosIcon animation"></span>
+          Enviados
+        </li>
+      </ul>
+
+      <P>CATEGORIAS</P>
+
+      <ul>
+        <li>
+          <span class="icon todosIcon animation"></span>
+          Todos
+        </li>
+        <li>
+          <span class="icon papeleraIcon animation"></span>
+          Papelera
+        </li>
+      </ul>
+    </nav>
+  </aside>
+  
+<script src="./script/script.js"></script>
+</body>
+</html>
